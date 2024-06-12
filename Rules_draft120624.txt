@@ -1,0 +1,42 @@
+Rules for Game
+In the game players are noble families serving the Venetian Republic in 1350.
+They win the game by having the most money at the end of the game. 
+
+A player's turn arises when the next token on the timer track is one of theirs.
+Whichever fleet the token belongs to has arrived at its destination port.
+The player may do the following:
+Sell any number of goods from the hold of the fleet.
+Buy upgrades for the fleet.
+Buy goods for the fleet.
+Turn in any number of completed missions.
+Decide on the fleet's next destination, at which point their turn ends. The fleet's token
+is placed at some point further down the timer track depending on the route decided on by the player.
+
+Any piracy triggered is resolved at this time. 
+Any non-coastal traversal is also triggered at this time.
+
+Every 10 timer ticks the Venetian phase takes place.
+Firstly, all players have an opportunity to purchase a fleet.
+Purchased fleet tokens are placed 5 timer ticks down the track and the player pays some money.
+Then proposals for conquests are declared by players, paying some amount of favour to floor the proposal.
+Other players may vote with favour. The player with the most favour declared gains the benefits of the 
+conquest. The token of that port is flipped to signify Venetian control and the player may place their
+family's token at that port to signify ownership.
+
+Two event cards are ever present at the top of the board. The leftmost is the ongoing event,
+and the rightmost is the one that will be relevant at the next phase. These events change every 
+7 timer ticks. The Republic's influence is spent to resolve the event positively, or left as is.
+
+Missions are bad trades that are present on Mission cards. These form a market that advances every 5 ticks of four cards.
+If a card is pushed off the end the Republic's military pool is decreased by 1. Completed missions give the owner a favour
+with the Republic to be spent on proposals, and increase the military pool by some amount. 
+
+When a player trades the price of the goods at the time of purchase or sale is used. The price is then increased
+or reduced by 1 for every good purchased or sold. At the end of the Venetian phase the prices are updated, with any 
+resource not produced by a city seeing its price raised by 2, unless there are those resouces present from sales. Any resource
+produced also reduces its price by 1 per resource.
+
+Players can declare a non-port location as a fleets destination. This declares the fleet as pirates. Upon their arrival the
+player selects how long they will remain there. Pirates exert a zone of control, any passage through which, triggers combat.
+In combat each player roll three d20. On a 20 they steal a resource from the other player. Equipment allows players to 
+manipulate the odds in their favour. 
