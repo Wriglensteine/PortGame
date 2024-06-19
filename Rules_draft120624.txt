@@ -40,3 +40,12 @@ Players can declare a non-port location as a fleets destination. This declares t
 player selects how long they will remain there. Pirates exert a zone of control, any passage through which, triggers combat.
 In combat each player roll three d20. On a 20 they steal a resource from the other player. Equipment allows players to 
 manipulate the odds in their favour. 
+
+
+
+CARDS:
+Each Government phase each city draws one card from its own city deck.
+The cards dictate how much of each resource is consumed or produced. Each card also
+displays a threshold showing how much a resource must be sold or bought before a price changes. 
+Prices are then updated accordingly. Broadly, cities will produce one
+resource, but may produce another or consume more or less on occasion.
