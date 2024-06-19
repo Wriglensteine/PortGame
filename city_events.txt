@@ -1,0 +1,44 @@
+link=./city_beirut.csv,silk,grain,fur,spice,event
+[numCards]=12
+[all]=1-[numCards]
+[allbacks]={[numCards]+1}-{[numCards]*2}
+
+[darkest]=#182d41
+[darker]=#20486c
+[dark]=#683535
+[light]=#8facc7
+[lighter]=#8facc7
+[darkgrey]=#182d41
+[grey]=#20486c
+[lightgrey]=#8a8a8a
+[textcolor]=[darker]
+
+PAGE=21,29.7,PORTRAIT,HV,#FFFFFF,[allbacks]
+CARDSIZE=6.3,8.8
+
+border=rounded, [darkest], 0.5
+image=[all],PlainPaperView.png,0,0,100%,100%
+
+; Icons for resources
+image=[all],Silk.png,0.4,0.5,2.5, 2
+image=[all],Silver.png,3.4,0.5,2.5, 2
+image=[all],Gold.png,0.4,4.2,2.5, 2
+image=[all],Spice.png,3.4,4.2,2.5, 2
+
+; Text of resources gained or lost
+font= "arial", 30, TB, [textcolor]
+text = [all], [silk],1.1,2.7,1,1,center,center
+text = [all], [grain],4.1,2.7,1,1,center,center
+text = [all], [fur],1.1,6.4,1,1,center,center
+text = [all], [spice],4.1,6.4,1,1,center,center
+
+; Card backs
+image=[allbacks],PlainPaperView.png,0,0,100%,100%
+font= "arial", 40, TB, [textcolor]
+text = [allbacks], "Beirut",0.5,3.8,5,1,center,center
+
+; Exports
+duplex=[all],[allbacks]
+Print=duplex
+display=./card_outputs/cards_beirut.png,1,[numCards]
+display=./card_outputs/cards_beirut_back.png,{[numCards] + 1},{[numCards] + 1}
