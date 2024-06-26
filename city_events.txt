@@ -34,8 +34,8 @@ text = [all], [spice],4.1,6.4,1,1,center,center
 
 ; Card backs
 image=[allbacks],PlainPaperView.png,0,0,100%,100%
-font= "arial", 42, TB, [textcolor]
-text = [allbacks], "Constantinople",0.5,3.8,5,1,center,center
+font= "arial", 28, TB, [textcolor]
+text = [allbacks], "Constantinople",0.5,0.8,5,8,center,center,60
 
 ; Exports
 duplex=[all],[allbacks]

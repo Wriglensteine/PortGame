@@ -1,0 +1,40 @@
+dpi=300
+oversample=2
+[num]=1
+[all]=1-[num]
+[allbacks]={[num]+ 1}-{[num] * 2}
+[total]=1-{[num] * 2}
+
+; Colors
+[darkest]=#182d41
+[darker]=#20486c
+[dark]=#2c577d
+[light]=#487297
+[lighter]=#8facc7
+[darkgrey]=#494949
+[grey]=#636363
+[lightgrey]=#757575
+[textcolor]=#000000
+
+PAGE=21,29.7,PORTRAIT,HV,#FFFFFF
+CARDSIZE=8,8
+rectangle=[all],0,0,100%,100%,[lightgrey]
+
+image=[all],PlainPaperView.png,0,0,100%,100%
+[xposes]=AUTOLABEL(1, 10, 2)
+font= "arial", 14, TB, [textcolor]
+[costs]=one|one|two|three|four|five|six|seven|seven|eight
+
+FOR = A, 1, 10, 1
+    FOR = B, 1, 4, 1
+        rectangle=[all],{0.2 + B*1.7},{A*0.6},0.5,0.5,[lightgrey]
+    NEXT
+    text=[all],{costs?A},0.2,{A*0.6 - 0.3},1.4,1
+NEXT
+
+image=[all],Silk.png,1.5,6.7,1.25, 1
+image=[all],Silver.png,3.2,6.7,1.25, 1
+image=[all],Gold.png,4.9,6.7,1.25, 1
+image=[all],Spice.png,6.6,6.7,1.25, 1
+
+display=./card_outputs/city_trade_board.png,1,[num]
